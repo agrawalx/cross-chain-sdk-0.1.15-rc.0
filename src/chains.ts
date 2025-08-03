@@ -15,6 +15,7 @@ export const SupportedChains = [
     NetworkEnum.SONIC,
     NetworkEnum.UNICHAIN,
     NetworkEnum.MONAD,
+    NetworkEnum.SEPOLIA
 ] as const
 
 type UnsupportedChain = Exclude<
